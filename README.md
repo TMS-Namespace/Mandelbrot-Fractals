@@ -13,6 +13,8 @@ An old project of mine, to generate beautiful, and zoomable basic fractals.
 This project is a WinForms projects, and built using VB.Net and v3.5 Framework.
 
 I used special methods `Marshal.WriteByte` to manipulate and draw the images directly into the memory, for maximum performance.
+
+Also remember to use code optimization (in project settings) in the relese to get best calculation speed.
 # Credits
 RGB <-> HSL color space convertor (used for more beautiful gradients) is taken from:
 > http://www.bobpowell.net/rgbhsb.htm
